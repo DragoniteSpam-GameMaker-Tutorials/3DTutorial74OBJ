@@ -12,3 +12,5 @@ instance_create_depth(0, 0, 0, Player);
 buffer = buffer_load("ground.vbuff");
 vb_ground = vertex_create_buffer_from_buffer(buffer, vertex_format);
 buffer_delete(buffer);
+
+vb_chest = import_obj("chest.obj", vertex_format);

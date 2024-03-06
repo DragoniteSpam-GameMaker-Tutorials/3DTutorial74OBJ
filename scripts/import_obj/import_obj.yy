@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"import_obj",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"import_obj",
+  "parent":{
+    "name":"3DTutorial74OBJ",
+    "path":"3DTutorial74OBJ.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

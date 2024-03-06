@@ -25,6 +25,9 @@ shader_set(shd_diffuse);
 
 vertex_submit(vb_ground, pr_trianglelist, sprite_get_texture(spr_ground, 0));
 
+matrix_set(matrix_world, matrix_build(0, 0, 0, 0, 0, 0, 32, 32, 32));
+vertex_submit(vb_chest, pr_trianglelist, sprite_get_texture(spr_xenoblade, 0));
+
 matrix_set(matrix_world, matrix_build_identity());
 shader_reset();
 gpu_set_zwriteenable(false);
