@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_diffuse",
+  "name":"shd_diffuse",
+  "parent":{
+    "name":"3DTutorial74OBJ",
+    "path":"3DTutorial74OBJ.yyp",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
