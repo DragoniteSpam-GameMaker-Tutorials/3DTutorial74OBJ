@@ -13,8 +13,8 @@
     {"$GMFolder":"","%Name":"Texture Maps","folderPath":"folders/Texture Maps.yy","name":"Texture Maps","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "IncludedFiles":[
-    {"$GMIncludedFile":"","%Name":"ground.vbuff","CopyToMask":-1,"filePath":"datafiles","name":"ground.vbuff","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"chest.obj","CopyToMask":-1,"filePath":"datafiles","name":"chest.obj","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"ground.vbuff","CopyToMask":-1,"filePath":"datafiles","name":"ground.vbuff","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -28,6 +28,7 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},},
     {"id":{"name":"import_obj","path":"scripts/import_obj/import_obj.yy",},},
+    {"id":{"name":"import_obj_optimized","path":"scripts/import_obj_optimized/import_obj_optimized.yy",},},
     {"id":{"name":"shd_diffuse","path":"shaders/shd_diffuse/shd_diffuse.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_xenoblade","path":"sprites/spr_xenoblade/spr_xenoblade.yy",},},

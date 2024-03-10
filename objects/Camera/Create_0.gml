@@ -13,4 +13,19 @@ buffer = buffer_load("ground.vbuff");
 vb_ground = vertex_create_buffer_from_buffer(buffer, vertex_format);
 buffer_delete(buffer);
 
+var t_start = get_timer();
 vb_chest = import_obj("chest.obj", vertex_format);
+var t_end = get_timer();
+show_debug_message($"Parsing the obj file took {(t_end - t_start) / 1000} milliseconds");
+
+t_start = get_timer();
+vb_chest_optimized = import_obj_optimized("chest.obj", vertex_format);
+t_end = get_timer();
+show_debug_message($"Parsing the obj file (optimized) took {(t_end - t_start) / 1000} milliseconds");
+
+t_start = get_timer();
+var buffer = buffer_load("out.vbuff");
+vb_chest2 = vertex_create_buffer_from_buffer(buffer, vertex_format);
+buffer_delete(buffer);
+t_end = get_timer();
+show_debug_message($"Directly loading the vertex buffer took {(t_end - t_start) / 1000} milliseconds");

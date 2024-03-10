@@ -3,8 +3,6 @@ function import_obj(filename, vertex_format) {
     var content_string = buffer_read(buffer, buffer_text);
     buffer_delete(buffer);
     
-    var t_start = get_timer();
-    
     var lines = string_split(content_string, "\n");
     
     var vb = vertex_create_buffer();
@@ -131,9 +129,6 @@ function import_obj(filename, vertex_format) {
                 break;
         }
     }
-    
-    var t_end = get_timer();
-    show_debug_message($"Parsing the obj file took {(t_end - t_start) / 1000} milliseconds");
     
     vertex_end(vb);
     vertex_freeze(vb);
