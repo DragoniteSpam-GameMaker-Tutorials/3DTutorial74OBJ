@@ -45,7 +45,7 @@ function import_obj(filename, vertex_format) {
                 });
                 break;
             case "f":
-                for (var j = 2; j < array_length(tokens); j++) {
+                for (var j = 3; j < array_length(tokens); j++) {
                     var v1 = tokens[1];
                     var v2 = tokens[j - 1];
                     var v3 = tokens[j];
